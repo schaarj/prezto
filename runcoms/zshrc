@@ -11,3 +11,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+export SCRIPTS='/Users/Joerg/Arbeit/Modelling/Scripts/'
+
+alias opentext='open -a /Applications/TextEdit.app/'
+
+alias h='history'
+alias hl='history | less'
+
+alias dryrunsync='sync.sh -n |tee ~/sync.log'
+
+alias vi=vim
+alias svi='sudo vi'
+alias vis='vim "+set si"'
+alias edit='vim'
